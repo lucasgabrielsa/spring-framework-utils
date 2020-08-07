@@ -5,3 +5,9 @@ Commands for Spring Framework
 `
 mvn spring-boot:run -Dspring-boot.run.profiles=prod
 `
+
+
+## Docker Permission Denied
+`
+sudo chmod 666 /var/run/docker.sock
+`
